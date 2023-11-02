@@ -1,0 +1,5 @@
+a<-seq(0,1,by=0.2)
+b<-qnorm(a,mean=2.5,sd=1.5)
+png(file="qnorm.png")
+plot(a,b)
+dev.off()
